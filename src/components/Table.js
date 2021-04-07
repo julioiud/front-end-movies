@@ -36,12 +36,12 @@ export default function Table(){
             </thead>
             <tbody>
                 {
-                    genders.map(item => {
+                    genders.map(item => 
                         <tr key={item.id}>
                             <th scope="row">{item.id}</th>
-                            <td>Mark</td>
+                            <td>{item.name}</td>
                         </tr>
-                    }
+                    
 
                     )
                 }
